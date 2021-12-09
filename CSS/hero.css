@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	background-image: url("back.png");
-	background-repeat: repeat;
+	background-repeat: no-repeat;
   	background-attachment: fixed;
   	background-size: cover;
   	color: white;
@@ -43,6 +43,7 @@ main :not(img){
 }
 
 main img{
+	min-height: 100%;
 	max-width: 100%;
 	max-height: auto;
 	width: 100%;
